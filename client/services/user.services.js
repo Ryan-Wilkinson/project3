@@ -4,6 +4,7 @@ angular
 
 UserService.$inject = ['$http'];
 
+// all http requests to server
 function UserService($http) {
     const self = this;
 

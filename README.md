@@ -26,14 +26,14 @@ Our application is a collection of hosted applications and tools for developers.
 	[Website](http://rushdavidmyers.bitballoon.com/)
 
 ## Wireframes + ERD
-  [Home](http://i.imgur.com/pZP4yTA.jpg)
-  [About](http://i.imgur.com/NMbymDu.jpg)
-  [Sign Up](http://i.imgur.com/6lYMYjk.jpg)
-  [Log In](http://i.imgur.com/oSfBuUe.jpg)
-  [All Apps Page](http://i.imgur.com/kWK3WT1.jpg)
-  [App Show](http://i.imgur.com/hjLQkMb.jpg)
-  [User Show](http://i.imgur.com/mdl0DQ3.jpg)
-
+  [Home wireframe](http://i.imgur.com/pZP4yTA.jpg)
+  [About wirefram](http://i.imgur.com/NMbymDu.jpg)
+  [Sign Up wireframe](http://i.imgur.com/6lYMYjk.jpg)
+  [Log In wireframe](http://i.imgur.com/oSfBuUe.jpg)
+  [All Apps Page wireframe](http://i.imgur.com/kWK3WT1.jpg)
+  [App Show wireframe](http://i.imgur.com/hjLQkMb.jpg)
+  [User Show wireframe](http://i.imgur.com/mdl0DQ3.jpg)
+  ![ERD](http://i.imgur.com/dwnk5W8.jpg)
 ## Future Developements
 - Company/Developer sign in.
 - CRUD functionality for Company/Developer.

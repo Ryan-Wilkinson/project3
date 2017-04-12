@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="projectThree">
 <head>
-   <title>Project 3</title>
+    <title>Project 3</title>
     <meta charset="UTF-8">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,21 +20,42 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <!-- navbar -->
   <nav ng-hide="('user'| includedByState)" class="navbar teal lighten-1 z-depth-1">
     <div class="nav-wrapper">
-      <a  ui-sref="home" ng-hide="'user' | includedByState" ><img class="logo brand-logo tooltipped" data-position="bottom" data-delay="50" data-tooltip="Home"src="http://i.imgur.com/R9lRYqc.png" ></a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a  ui-sref="home" ng-hide="'user' | includedByState" >
+          <img class="logo brand-logo tooltipped" data-position="bottom" data-delay="50" data-tooltip="Home"src="http://i.imgur.com/R9lRYqc.png" >
+      </a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+      </a>
       <ul class="right hide-on-med-and-down">
-        <li><a ui-sref="about" >About</a></li>
-        <li><a ui-sref="login" ng-hide="'applications' || 'applicationShow' | includedByState">Login </a></li>
-        <li><a ui-sref='applications' ng-hide="'user' | includedByState">Applications </a></li>
-        <li><a ui-sref="home" ng-if="'user' | includedByState">LogOut</a></li>
+        <li>
+            <a ui-sref="about" >About</a>
+        </li>
+        <li>
+            <a ui-sref="login" ng-hide="'applications' || 'applicationShow' | includedByState">Login </a>
+        </li>
+        <li>
+            <a ui-sref='applications' ng-hide="'user' | includedByState">Applications </a>
+        </li>
+        <li>
+            <a ui-sref="home" ng-if="'user' | includedByState">LogOut</a>
+        </li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a ui-sref="about">About</a></li>
-        <li><a ui-sref="login" ng-hide="'applications' || 'applicationShow' | includedByState">Login </a></li>
-        <li><a ui-sref='applications' ng-hide="'user' | includedByState">Applications </a></li>
-        <li><a ui-sref="home" ng-if="'user' | includedByState">LogOut</a></li>
+        <li>
+            <a ui-sref="about">About</a>
+        </li>
+        <li>
+            <a ui-sref="login" ng-hide="'applications' || 'applicationShow' | includedByState">Login </a>
+        </li>
+        <li>
+            <a ui-sref='applications' ng-hide="'user' | includedByState">Applications </a>
+        </li>
+        <li>
+            <a ui-sref="home" ng-if="'user' | includedByState">LogOut</a>
+        </li>
       </ul>
     </div>
   </nav>
