@@ -4,7 +4,8 @@ require('angular-ui-router');
 angular
     .module('projectThree', ['ui.router'])
     .config(uiRouterSetup)
-    .run(connectGaToUiRouter);
+    .run(connectGaToUiRouter)
+    .run(initializeFullStory);
 
 uiRouterSetup.$inject = ['$stateProvider', '$urlRouterProvider'];
 
