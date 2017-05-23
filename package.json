@@ -9,7 +9,7 @@
     "start:dev:server": "nodemon server.js",
     "start:dev:client": "webpack --watch",
     "build": "webpack",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+    "postinstall": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,11 @@
     "url": "https://github.com/Ryan-Wilkinson/project3/issues"
   },
   "homepage": "https://github.com/Ryan-Wilkinson/project3#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1"
+  },
   "dependencies": {
     "angular-ui-router": "^0.4.2",
     "bcrypt-nodejs": "0.0.3",
