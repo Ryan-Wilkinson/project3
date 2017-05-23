@@ -13,25 +13,25 @@ Our application is a collection of hosted applications and tools for developers.
 
 ## Group-Members
 - Felicia
-	[Github](https://github.com/neysa21)
-	[Website](//)
+	[Github](https://github.com/neysa21) |
+	[Website](http://feliciadev.bitballoon.com/)
 - Ryan
-	[Github](https://github.com/Ryan-Wilkinson)
-	[Website](http://lazer-lizards-86830.bitballoon.com/)
+	[Github](https://github.com/Ryan-Wilkinson) |
+	[Website](http://ryan-wilkinson.bitballoon.com/)
 - Lanchana
-	[Github](https://github.com/lanchana)
+	[Github](https://github.com/lanchana) |
 	[Website](//)
 - Rush
-	[Github](https://github.com/RushMyers)
+	[Github](https://github.com/RushMyers) |
 	[Website](http://rushdavidmyers.bitballoon.com/)
 
 ## Wireframes + ERD
-  [Home](http://i.imgur.com/pZP4yTA.jpg)
-  [About](http://i.imgur.com/NMbymDu.jpg)
-  [Sign Up](http://i.imgur.com/6lYMYjk.jpg)
-  [Log In](http://i.imgur.com/oSfBuUe.jpg)
-  [All Apps Page](http://i.imgur.com/kWK3WT1.jpg)
-  [App Show](http://i.imgur.com/hjLQkMb.jpg)
+  [Home](http://i.imgur.com/pZP4yTA.jpg) |
+  [About](http://i.imgur.com/NMbymDu.jpg) |
+  [Sign Up](http://i.imgur.com/6lYMYjk.jpg) |
+  [Log In](http://i.imgur.com/oSfBuUe.jpg) |
+  [All Apps Page](http://i.imgur.com/kWK3WT1.jpg) |
+  [App Show](http://i.imgur.com/hjLQkMb.jpg) |
   [User Show](http://i.imgur.com/mdl0DQ3.jpg)
   ![ERD](http://i.imgur.com/dwnk5W8.jpg)
 
@@ -51,3 +51,5 @@ Our application is a collection of hosted applications and tools for developers.
 - Materialize
 - Trello
 - Heroku
+- Google Analytics
+- Full Story
