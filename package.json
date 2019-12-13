@@ -28,7 +28,7 @@
     "babel-preset-env": "^1.7.0"
   },
   "dependencies": {
-    "angular-ui-router": "^0.4.3",
+    "angular-ui-router": "^1.0.23",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "connect-mongodb-session": "^2.2.0",
